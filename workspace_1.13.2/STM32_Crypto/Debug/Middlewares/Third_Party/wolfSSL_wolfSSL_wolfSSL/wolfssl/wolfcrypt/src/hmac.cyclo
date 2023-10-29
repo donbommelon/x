@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:139:5:wc_HmacSizeByType	12
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:214:5:_InitHmac	2
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:297:5:wc_HmacSetKey	24
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:601:12:HmacKeyInnerHash	3
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:684:5:wc_HmacUpdate	7
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:787:5:wc_HmacFinal	10
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:1018:5:wc_HmacInit	2
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:1092:6:wc_HmacFree	3
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/hmac.c:1176:5:wolfSSL_GetHmacMaxSize	1

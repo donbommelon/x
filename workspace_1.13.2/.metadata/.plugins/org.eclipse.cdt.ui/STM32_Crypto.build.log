@@ -1,0 +1,24 @@
+14:48:28 **** Incremental Build of configuration Debug for project STM32_Crypto ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Crypto/crypto.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../wolfSSL -I../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/ -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Crypto/crypto.d" -MT"Core/Src/Crypto/crypto.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Crypto/crypto.o"
+In file included from ../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfssl/wolfcrypt/settings.h:273,
+                 from ../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfssl/wolfcrypt/types.h:34,
+                 from ../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfssl/wolfcrypt/rsa.h:36,
+                 from ../Core/Src/Crypto/crypto.c:8:
+../wolfSSL/wolfSSL.I-CUBE-wolfSSL_conf.h:218:6: warning: #warning Please define a hardware platform! [-Wcpp]
+  218 |     #warning Please define a hardware platform!
+      |      ^~~~~~~
+arm-none-eabi-gcc -o "STM32_Crypto.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\paulh\STM32CubeIDE\workspace_1.13.2\STM32_Crypto\STM32L452RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_Crypto.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32_Crypto.elf
+ 
+arm-none-eabi-size   STM32_Crypto.elf 
+arm-none-eabi-objdump -h -S  STM32_Crypto.elf  > "STM32_Crypto.list"
+   text	   data	    bss	    dec	    hex	filename
+  52272	    112	   2072	  54456	   d4b8	STM32_Crypto.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32_Crypto.list
+ 
+
+14:48:31 Build Finished. 0 errors, 1 warnings. (took 3s.361ms)
+

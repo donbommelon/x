@@ -1,0 +1,13 @@
+/*
+ * crypto.h
+ *
+ *  Created on: Oct 27, 2023
+ *      Author: paulh
+ */
+
+void RSA_Init(void);
+
+void RSA_Encrypt(void);
+
+
+

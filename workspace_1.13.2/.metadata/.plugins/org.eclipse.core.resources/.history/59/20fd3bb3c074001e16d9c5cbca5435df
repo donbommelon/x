@@ -1,0 +1,16 @@
+/*
+ * crypto.h
+ *
+ *  Created on: Oct 27, 2023
+ *      Author: paulh
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+#include <wolfssl/options.h>
+#include <wolfssl/wolfcrypt/rsa.h>
+#include <wolfssl/ssl.h>
+
+
+

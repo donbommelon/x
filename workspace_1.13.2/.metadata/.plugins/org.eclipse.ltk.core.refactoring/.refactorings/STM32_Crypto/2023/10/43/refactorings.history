@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;STM32_Crypto/Core/Src/Crypto/crypto&apos; to &apos;crypto.c&apos;" description="Rename resource &apos;crypto&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/Crypto/crypto" name="crypto.c" stamp="1698408152732" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;STM32_Crypto/Core/Src/Crypto/crypto.c&apos; to &apos;Crypto.c&apos;" description="Rename resource &apos;crypto.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/Crypto/crypto.c" name="Crypto.c" stamp="1698410927646" updateReferences="true"/>
+</session>

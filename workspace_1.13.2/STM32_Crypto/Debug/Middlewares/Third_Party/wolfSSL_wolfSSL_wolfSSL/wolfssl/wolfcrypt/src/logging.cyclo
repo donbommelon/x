@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/logging.c:146:5:wolfSSL_SetLoggingCb	1
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/logging.c:158:20:wolfSSL_GetLoggingCb	1
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/logging.c:168:5:wolfSSL_Debugging_ON	1
+../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/wolfcrypt/src/logging.c:182:6:wolfSSL_Debugging_OFF	1
